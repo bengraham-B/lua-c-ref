@@ -1,0 +1,1 @@
+print("Lua is working in C on Lunix 1")
