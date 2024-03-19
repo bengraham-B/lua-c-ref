@@ -8,6 +8,7 @@ int main() {
 
     // Load and execute Lua script
     luaL_dofile(L, "script.lua");
+    luaL_dofile(L, "other_script.lua");
 
     // Close Lua state
     lua_close(L);
